@@ -100,15 +100,15 @@ This collection of coding exercises focuses on JavaScript, Node and NPM modules,
 
 ### 1 - Classes
 
-| Topics                               | Code                                                                | Videos    | Length |
-| ------------------------------------ | ------------------------------------------------------------------- | --------- | -----: |
-| Classes & Constructors               | [classes-constructors](/tutorials/01-classes/classes-constructors/) | [Demo]()  |        |
-| Advanced Properties & Default Values | [advanced-properties](/tutorials/01-classes/advanced-properties/)   | [Demo]()  |        |
-| Class Methods & Memory Scope         | [class-methods](/tutorials/01-classes/class-methods/)               | [Demo]()  |        |
-| Inheritance Basics                   | [inheritance-basics](/tutorials/01-classes/inheritance-basics/)     | [Demo]()  |        |
-| Deep Inheritance                     | [deep-inheritance](/tutorials/01-classes/deep-inheritance/)         | [Demo]()  |        |
-| Polymorphism                         | [polymorphism](/tutorials/01-classes/polymorphism/)                 | [Demo]()  |        |
-|                                      |                                                                     | **TOTAL** |        |
+| Topics                               | Code                                                                | Videos                               | Length |
+| ------------------------------------ | ------------------------------------------------------------------- | ------------------------------------ | -----: |
+| Classes & Constructors               | [classes-constructors](/tutorials/01-classes/classes-constructors/) | [Demo](https://youtu.be/pYJbOCsvkeM) |   6:46 |
+| Advanced Properties & Default Values | [advanced-properties](/tutorials/01-classes/advanced-properties/)   | [Demo](https://youtu.be/0kFiadYl-WQ) |   5:26 |
+| Class Methods & Memory Scope         | [class-methods](/tutorials/01-classes/class-methods/)               | [Demo](https://youtu.be/za9U2GltNfo) |   5:57 |
+| Inheritance Basics                   | [inheritance-basics](/tutorials/01-classes/inheritance-basics/)     | [Demo](https://youtu.be/0CV9VgptCKM) |   8:00 |
+| Deep Inheritance                     | [deep-inheritance](/tutorials/01-classes/deep-inheritance/)         | _Coming soon!_                       |        |
+| Polymorphism                         | [polymorphism](/tutorials/01-classes/polymorphism/)                 | _Coming soon!_                       |        |
+|                                      |                                                                     | **TOTAL**                            |        |
 
 ---
 
