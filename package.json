@@ -1,0 +1,30 @@
+{
+	"name": "modular-javascript",
+	"version": "1.0.0",
+	"description": "Examples and exercises for CodeWithCarrie.com tutorial collection: Modular JavaScript",
+	"keywords": [
+		"javascript"
+	],
+	"homepage": "https://github.com/CodeWithCarrie/modular-javascript#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeWithCarrie/modular-javascript.git"
+	},
+	"license": "ISC",
+	"author": "CodeWithCarrie.com (Caroline R. Jones)",
+	"type": "commonjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier . --write",
+		"format:check": "prettier . --check"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.2.0",
+		"eslint-config-prettier": "^10.1.8",
+		"globals": "^17.5.0",
+		"prettier": "^3.8.2"
+	}
+}
