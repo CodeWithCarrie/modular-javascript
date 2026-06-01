@@ -48,6 +48,4 @@ class EnemyMob {
 // FIX: Added the missing 'new' keyword required to invoke a class constructor
 const eliteOrc = new EnemyMob("Orc Raider", 45);
 
-console.log(
-	`\nA hostile ${eliteOrc.mobType} has appeared! (Power: ${eliteOrc.power})`
-);
+console.log(`\nA hostile ${eliteOrc.mobType} has appeared! (Power: ${eliteOrc.power})`);

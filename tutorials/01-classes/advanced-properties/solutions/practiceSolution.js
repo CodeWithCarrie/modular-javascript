@@ -14,10 +14,10 @@
     3. Inside the constructor, hardcode a default property: 'this.speedMultiplier' set to 1.5.
 */
 class GameMount {
-    constructor(animalType = "Horse") {
-        this.type = animalType;
-        this.speedMultiplier = 1.5;
-    }
+	constructor(animalType = "Horse") {
+		this.type = animalType;
+		this.speedMultiplier = 1.5;
+	}
 }
 
 /*
@@ -29,20 +29,23 @@ class GameMount {
 const basicMount = new GameMount();
 const epicMount = new GameMount("Dragon");
 
-console.log(`You summoned a standard ${basicMount.type}! Speed bonus: x${basicMount.speedMultiplier}`);
-console.log(`You summoned a legendary ${epicMount.type}! Speed bonus: x${epicMount.speedMultiplier}`);
-
+console.log(
+	`You summoned a standard ${basicMount.type}! Speed bonus: x${basicMount.speedMultiplier}`
+);
+console.log(
+	`You summoned a legendary ${epicMount.type}! Speed bonus: x${epicMount.speedMultiplier}`
+);
 
 /** EXERCISE 2: REPAIRING THE SHIELD BLUEPRINT **/
 
 class MagicShield {
-    // FIX: Added a default fallback configuration value to the 'element' parameter
-    constructor(shieldName, element = "Fire") {
-        this.name = shieldName;
-        this.protectionElement = element;
-        // FIX: Moved 'durability' out of parameters and hardcoded it to start at 100
-        this.durability = 100;
-    }
+	// FIX: Added a default fallback configuration value to the 'element' parameter
+	constructor(shieldName, element = "Fire") {
+		this.name = shieldName;
+		this.protectionElement = element;
+		// FIX: Moved 'durability' out of parameters and hardcoded it to start at 100
+		this.durability = 100;
+	}
 }
 
 /*
@@ -51,4 +54,6 @@ class MagicShield {
 */
 const protectiveShield = new MagicShield("Aegis");
 
-console.log(`\nYou equipped the ${protectiveShield.name} Shield! Protection type: ${protectiveShield.protectionElement}. Durability: ${protectiveShield.durability}/100.`);
+console.log(
+	`\nYou equipped the ${protectiveShield.name} Shield! Protection type: ${protectiveShield.protectionElement}. Durability: ${protectiveShield.durability}/100.`
+);

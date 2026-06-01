@@ -35,6 +35,4 @@ class EnemyMob {
 */
 const eliteOrc = EnemyMob("Orc Raider", 45);
 
-console.log(
-	`\nA hostile ${eliteOrc.mobType} has appeared! (Power: ${eliteOrc.power})`
-);
+console.log(`\nA hostile ${eliteOrc.mobType} has appeared! (Power: ${eliteOrc.power})`);

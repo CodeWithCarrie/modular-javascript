@@ -26,28 +26,27 @@
 /** EXAMPLE 1 - RECONSTRUCTING ACTIONS THE RIGHT WAY **/
 
 class Wizard {
-    constructor(wizardName, startingMagic = 50) {
-        this.name = wizardName;
-        this.magicPoints = startingMagic;
-        
-        // AVOID THIS FOR ACTIONS: This duplicates memory space for every instance
-        this.badRestMethod = () => {
-            this.magicPoints += 10;
-        };
-    }
+	constructor(wizardName, startingMagic = 50) {
+		this.name = wizardName;
+		this.magicPoints = startingMagic;
 
-    // RECOMMENDED METHOD SYNTAX: Written cleanly below the constructor block.
-    // Every instance shares this single blueprint function automatically.
-    castSpell(spellName, cost) {
-        if (this.magicPoints >= cost) {
-            this.magicPoints -= cost;
-            return `${this.name} casts ${spellName}! Magic remaining: ${this.magicPoints}.`;
-        } else {
-            return `${this.name} does not have enough magic to cast ${spellName}!`;
-        }
-    }
+		// AVOID THIS FOR ACTIONS: This duplicates memory space for every instance
+		this.badRestMethod = () => {
+			this.magicPoints += 10;
+		};
+	}
+
+	// RECOMMENDED METHOD SYNTAX: Written cleanly below the constructor block.
+	// Every instance shares this single blueprint function automatically.
+	castSpell(spellName, cost) {
+		if (this.magicPoints >= cost) {
+			this.magicPoints -= cost;
+			return `${this.name} casts ${spellName}! Magic remaining: ${this.magicPoints}.`;
+		} else {
+			return `${this.name} does not have enough magic to cast ${spellName}!`;
+		}
+	}
 }
-
 
 /** EXAMPLE 2 - RUNNING REUSABLE ACTIONS **/
 const player1 = new Wizard("Merlin", 60);

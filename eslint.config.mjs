@@ -7,6 +7,8 @@ export default [
 		ignores: [
 			"node_modules/**",
 			"local/**",
+			"tutorials/01-classes/deep-inheritance/exercises/practice.js",
+			"tutorials/01-classes/inheritance-basics/exercises/practice.js",
 		],
 	},
 	js.configs.recommended,
