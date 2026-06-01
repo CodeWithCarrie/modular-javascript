@@ -11,16 +11,10 @@
 ---
 
 <div align="center">
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#setup">Setup</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#1---basic-syntax">Basic Syntax</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#2---conditionals">Conditionals</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#3---errors--debugging">Errors & Debugging</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#4---strings">Strings</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#5---arrays">Arrays</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#6---loops">Loops</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#7---function-basics">Function Basics</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#8---objects">Objects</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/javascript-fundamentals/blob/main/README.md#9---more-on-functions">More on Functions</a>
+    <a href="https://github.com/CodeWithCarrie/modular-javascript/blob/main/README.md#setup">Setup</a> &bull;
+    <a href="https://github.com/CodeWithCarrie/modular-javascript/blob/main/README.md#1---classes">Classes</a> &bull;
+    <a href="https://github.com/CodeWithCarrie/modular-javascript/blob/main/README.md#2---modules">Modules</a> &bull;
+    <a href="https://github.com/CodeWithCarrie/modular-javascript/blob/main/README.md#3---unit-testing">Unit Testing</a> &bull;
 </div>
 
 ---
@@ -106,34 +100,27 @@ This collection of coding exercises focuses on JavaScript, Node and NPM modules,
 
 ### 1 - Classes
 
-| Topics                               | Code                                                                | Videos    | Length |
-| ------------------------------------ | ------------------------------------------------------------------- | --------- | -----: |
-| Classes & Constructors               | [classes-constructors](/tutorials/01-classes/classes-constructors/) | [Demo]()  |        |
-| Advanced Properties & Default Values | [advanced-properties](/tutorials/01-classes/advanced-properties/)   | [Demo]()  |        |
-| Class Methods & Memory Scope         | [class-methods](/tutorials/01-classes/class-methods/)               | [Demo]()  |        |
-| Inheritance Basics                   | [inheritance-basics](/tutorials/01-classes/inheritance-basics/)     | [Demo]()  |        |
-| Deep Inheritance Chains              | [deep-inheritance](/tutorials/01-classes/deep-inheritance/)         | [Demo]()  |        |
-| Polymorphism & Interface Unity       | [polymorphism](/tutorials/01-classes/polymorphism/)                 | [Demo]()  |        |
-|                                      |                                                                     | **TOTAL** |        |
+| Topics                               | Code                                                                | Videos                               | Length |
+| ------------------------------------ | ------------------------------------------------------------------- | ------------------------------------ | -----: |
+| Classes & Constructors               | [classes-constructors](/tutorials/01-classes/classes-constructors/) | [Demo](https://youtu.be/pYJbOCsvkeM) |   6:46 |
+| Advanced Properties & Default Values | [advanced-properties](/tutorials/01-classes/advanced-properties/)   | [Demo](https://youtu.be/0kFiadYl-WQ) |   5:26 |
+| Class Methods & Memory Scope         | [class-methods](/tutorials/01-classes/class-methods/)               | [Demo](https://youtu.be/za9U2GltNfo) |   5:57 |
+| Inheritance Basics                   | [inheritance-basics](/tutorials/01-classes/inheritance-basics/)     | [Demo](https://youtu.be/0CV9VgptCKM) |   8:00 |
+| Deep Inheritance                     | [deep-inheritance](/tutorials/01-classes/deep-inheritance/)         | _Coming soon!_                       |        |
+| Polymorphism                         | [polymorphism](/tutorials/01-classes/polymorphism/)                 | _Coming soon!_                       |        |
+|                                      |                                                                     | **TOTAL**                            |        |
 
 ---
 
 ### 2 - Modules
 
-| Topics | Code                           | Videos    | Length |
-| ------ | ------------------------------ | --------- | -----: |
-|        | [](/tutorials/02-modules/.../) | [Demo]()  |        |
-|        |                                | **TOTAL** |        |
+_Coming soon!_
 
 ---
 
 ### 3 - Unit Testing
 
-| Topics                  | Code                                | Videos    | Length |
-| ----------------------- | ----------------------------------- | --------- | -----: |
-| Unit Testing with Jest  | [](/tutorials/03-unit-testing/.../) | [Demo]()  |        |
-| Test-Driven Development | [](/tutorials/03-unit-testing/.../) | [Demo]()  |        |
-|                         |                                     | **TOTAL** |        |
+_Coming soon!_
 
 ---
 
