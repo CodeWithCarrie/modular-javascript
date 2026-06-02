@@ -117,7 +117,7 @@ This collection of coding exercises focuses on JavaScript, Node and NPM modules,
 | Topics               | Code                                                                | Videos         | Length |
 | -------------------- | ------------------------------------------------------------------- | -------------- | -----: |
 | CommonJS Modules     | [commonjs-modules](/tutorials/02-modules/commonjs-modules/)         | [Demo]()       |        |
-| ES Modules           | [es-modules](/tutorials/02-modules/es-modules/)                     | [Demo]()       |        |
+| ES Modules           | [es-modules](/tutorials/02-modules/es-modules/)                     | _Coming soon!_       |        |
 | Node Core Modules    | [node-core-modules](/tutorials/02-modules/node-core-modules/)       | [Demo]()       |        |
 | NPM Modules          | [npm-modules](/tutorials/02-modules/npm-modules/)                   | _Coming soon!_ |        |
 | Modules with Classes | [modules-with-classes](/tutorials/02-modules/modules-with-classes/) | _Coming soon!_ |        |
