@@ -20,6 +20,8 @@ describe("Warrior Class", () => {
 	// 2. DEMO: ACT
 
 	// 3. DEMO: ASSERT
+
+    // DEMO: What happens if you need to change it back?
 });
 
 /* 

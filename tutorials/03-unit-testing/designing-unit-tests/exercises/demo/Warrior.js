@@ -9,6 +9,7 @@ export default class Warrior {
 		this.health -= amount;
 	}
 
+    // Refactored to handle changing back
 	switchStance() {
 		this.stance = this.stance === "Defensive" ? "Aggressive" : "Defensive";
 	}
