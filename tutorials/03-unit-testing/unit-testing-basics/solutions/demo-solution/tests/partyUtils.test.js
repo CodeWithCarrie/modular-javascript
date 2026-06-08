@@ -20,25 +20,25 @@ import { calculateCombinedPower, getStarterSpells } from "../partyUtils.js";
 
 // 'test()' defines an isolated testing block
 test("calculateCombinedPower accurately sums combat values of party members", () => {
-    let actual = calculateCombinedPower(15, 12);
-    let expected = 27;
+	let actual = calculateCombinedPower(15, 12);
+	let expected = 27;
 
-    // expect() combined with a Matcher (.toBe) establishes the assertion
-    expect(actual).toBe(expected);
+	// expect() combined with a Matcher (.toBe) establishes the assertion
+	expect(actual).toBe(expected);
 
-    // For simple assertions, you can do it all in one line
-    expect(calculateCombinedPower(0, 50)).toBe(50);
+	// For simple assertions, you can do it all in one line
+	expect(calculateCombinedPower(0, 50)).toBe(50);
 });
 
 test("getStarterSpells returns the correct initial magic array layout", () => {
-    const spellbook = getStarterSpells();
-    
-    // CRITICAL: .toBe checks strict memory reference. 
-    expect(spellbook).not.toBe(["Fireball", "Heal Shield"]);
-    
-    // Use .toEqual to deeply compare values inside objects or arrays!
-    expect(spellbook).toEqual(["Fireball", "Heal Shield"]);
-    
-    // .toContain checks if a specific item exists inside an array
-    expect(spellbook).toContain("Fireball");
+	const spellbook = getStarterSpells();
+
+	// CRITICAL: .toBe checks strict memory reference.
+	expect(spellbook).not.toBe(["Fireball", "Heal Shield"]);
+
+	// Use .toEqual to deeply compare values inside objects or arrays!
+	expect(spellbook).toEqual(["Fireball", "Heal Shield"]);
+
+	// .toContain checks if a specific item exists inside an array
+	expect(spellbook).toContain("Fireball");
 });

@@ -28,7 +28,7 @@ import { getRandominRange } from "./utils/mathUtils.js";
 const player = new Wizard("Merlin");
 
 // Simulate gameplay
-console.log(`${player.name} enters the cave.`)
+console.log(`${player.name} enters the cave.`);
 
 console.log(`
 A troll appears! 

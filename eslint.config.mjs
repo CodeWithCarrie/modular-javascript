@@ -9,6 +9,7 @@ export default [
 			"local/**",
 			"tutorials/01-classes/deep-inheritance/exercises/practice.js",
 			"tutorials/01-classes/inheritance-basics/exercises/practice.js",
+			"**/**.test.js",
 		],
 	},
 	js.configs.recommended,

@@ -5,7 +5,7 @@
 // DEMO: Instantiate our player
 
 // DEMO: Complete the gameplay simulation below
-console.log(`${null} enters the cave.`)
+console.log(`${null} enters the cave.`);
 
 console.log(`
 A troll appears! 

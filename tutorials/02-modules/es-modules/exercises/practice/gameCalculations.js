@@ -5,5 +5,5 @@
 const scoreMultiplier = 2;
 
 function doubleScore(currentScore) {
-    return currentScore * scoreMultiplier;
+	return currentScore * scoreMultiplier;
 }

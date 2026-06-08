@@ -1,9 +1,10 @@
 export default class Wizard {
+	constructor(name) {
+		this.name = name;
+		this.spells = [];
+	}
 
-    constructor(name) {
-        this.name = name;
-        this.spells = [];
-    }
-    
-    learnSpell(spellName) { this.spells.push(spellName); }
+	learnSpell(spellName) {
+		this.spells.push(spellName);
+	}
 }

@@ -5,5 +5,5 @@
 export const scoreMultiplier = 2;
 
 export function doubleScore(currentScore) {
-    return currentScore * scoreMultiplier;
+	return currentScore * scoreMultiplier;
 }
