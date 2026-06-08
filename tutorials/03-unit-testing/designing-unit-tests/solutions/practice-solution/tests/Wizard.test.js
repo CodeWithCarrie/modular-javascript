@@ -2,7 +2,7 @@
 
 import Wizard from "../Wizard.js";
 
-describe("Wizard Spell Inventory Pipelines", () => {
+describe("Wizard class", () => {
     // Declare (but do not instantiate) a variable to store a wizard
     let testMage;
 
@@ -14,7 +14,7 @@ describe("Wizard Spell Inventory Pipelines", () => {
         testMage = new Wizard("Merlin");
     });
 
-    test("safely saves multiple sequential spells cleanly into memory profiles", () => {
+    test("learnSpell method saves multiple sequential spells", () => {
         // 1. ARRANGE - Create two spells
         const spellA = "Teleport";
         const spellB = "Lightning Bolt";

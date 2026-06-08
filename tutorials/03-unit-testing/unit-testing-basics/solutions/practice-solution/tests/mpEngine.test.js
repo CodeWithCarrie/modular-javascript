@@ -14,7 +14,7 @@ import { regenerateMP } from "../mpEngine.js";
     1. Calling regenerateMP(45, 15) returns exactly 60 using '.toBe()'
     2. Calling regenerateMP(90, 20) safely caps out at 100 using '.toBe()'
 */
-test("regenerateMP adds points correctly and respects maximum mana pools", () => {
+test("regenerateMP adds points correctly and respects maxMP", () => {
     expect(regenerateMP(45, 15)).toBe(60);
     expect(regenerateMP(90, 20)).toBe(100);
 });

@@ -22,7 +22,7 @@
 
 import Warrior from "../models/Warrior.js";
 
-describe("Warrior Class Operational Metrics", () => {
+describe("Warrior Class", () => {
     let testHero;
 
     // HOOK SETUP: Automatically instantiates a fresh player before every test
@@ -30,7 +30,7 @@ describe("Warrior Class Operational Metrics", () => {
         testHero = new Warrior("Arthur");
     });
 
-    test("accurately calculates health reductions following multi-hit damage spikes", () => {
+    test("takeDamage method accurately lowers HP", () => {
         // 1. ARRANGE (State setup)
         const minorHit = 15;
         const criticalHit = 40;
@@ -43,7 +43,7 @@ describe("Warrior Class Operational Metrics", () => {
         expect(testHero.health).toBe(45);
     });
 
-    test("successfully alters active tactical combat modes", () => {
+    test("switchStance method alters active combat mode", () => {
         // 1. ARRANGE
         // Handled completely by the clean beforeEach hook
 

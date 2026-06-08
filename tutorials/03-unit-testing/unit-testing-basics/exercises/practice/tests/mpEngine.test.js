@@ -16,4 +16,4 @@ import { regenerateMP } from "../mpEngine.js";
 */
 
 // Don't forget to remove the .todo before passing in the second argument
-test.todo("regenerateMP adds points correctly and respects maximum mana pools");
+test.todo("regenerateMP adds points correctly and respects maxMP");
